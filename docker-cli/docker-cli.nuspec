@@ -12,7 +12,7 @@
     <projectUrl>https://www.docker.com/</projectUrl>
     <projectSourceUrl>https://github.com/docker/cli</projectSourceUrl>
 
-<!--     <iconUrl>!!!</iconUrl> -->
+    <iconUrl>https://rawcdn.githack.com/geicht/chocolatey-packages/94d12e6a67f5fb03baf444cadcea14546de06045/docker-cli/img/docker.png</iconUrl>
 <!--     <packageSourceUrl>!!!</packageSourceUrl> -->
 
     <copyright />
