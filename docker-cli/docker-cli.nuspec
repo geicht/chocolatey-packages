@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+
+    <id>docker-cli</id>
+    <title>Docker CLI</title>
+    <version></version>
+    <authors>Docker Contributors</authors>
+    <owners>StefanScherer,Geicht</owners>
+
+    <projectUrl>https://www.docker.com/</projectUrl>
+    <projectSourceUrl>https://github.com/docker/cli</projectSourceUrl>
+
+<!--     <iconUrl>!!!</iconUrl> -->
+<!--     <packageSourceUrl>!!!</packageSourceUrl> -->
+
+    <copyright />
+    <licenseUrl>https://github.com/docker/cli/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <docsUrl>https://docs.docker.com/engine/reference/commandline/cli/</docsUrl>
+    <mailingListUrl>https://forums.docker.com/</mailingListUrl>
+    <bugTrackerUrl>https://github.com/docker/cli/issues</bugTrackerUrl>
+
+    <tags>docker docker-compose devops containers cli</tags>
+    <summary>Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications.</summary>
+    <description></description>
+    <releaseNotes></releaseNotes>
+
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
