@@ -6,6 +6,8 @@ on:
       forced_packages:
         description: The list of packages to forcibly update (like "pkg1:ver1 pkg2")
         required: false
+  schedule:
+    - cron:  '5 0/8 * * *'
 
 jobs:
   auto_update:
