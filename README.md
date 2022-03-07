@@ -6,5 +6,7 @@
 [![](http://transparent-favicon.info/favicon.ico)](#)
 [chocolatey/geicht](https://chocolatey.org/profiles/geicht)
 
+This repository contains my [chocolatey packages](https://docs.chocolatey.org/en-us/getting-started#what-are-chocolatey-packages) which are automatically updated by [AU](https://github.com/majkinetor/au).  
+[GitHub Actions](https://github.com/features/actions) is used for CI/CD.
 
 This repository contains my [chocolatey automatic packages](https://chocolatey.org/docs/automatic-packages).  
