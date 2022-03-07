@@ -9,4 +9,8 @@
 This repository contains my [chocolatey packages](https://docs.chocolatey.org/en-us/getting-started#what-are-chocolatey-packages) which are automatically updated by [AU](https://github.com/majkinetor/au).  
 [GitHub Actions](https://github.com/features/actions) is used for CI/CD.
 
-This repository contains my [chocolatey automatic packages](https://chocolatey.org/docs/automatic-packages).  
+# References
+
+- [Create Packages](https://docs.chocolatey.org/en-us/create/create-packages)
+- [Automatic Packaging](https://github.com/majkinetor/au) with [GitHub Actions](https://docs.github.com/en/actions)
+- Inspired by [my-chocolatey-packages](https://github.com/kai2nenobu/my-chocolatey-packages) from [kai2nenobu](https://github.com/kai2nenobu)
