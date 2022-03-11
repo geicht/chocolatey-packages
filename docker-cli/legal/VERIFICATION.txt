@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://download.docker.com/win/static/stable/x86_64/docker-20.10.12.zip
+   x64: https://download.docker.com/win/static/stable/x86_64/docker-20.10.13.zip
 
    to download the zip archive.
 
@@ -15,7 +15,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: bd3775ada72492aa1f3c2edb3e81663bd128b9d4f6752ef75953a6af7c219c81
+   checksum64: f18382ae665d75b1c31b1cc349bfd7d136cb29f67ea688849f2f31ed52e18f5f
 
 
 File 'LICENSE.txt' is obtained from:

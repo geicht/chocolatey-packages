@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference  = 'Stop';
 $toolsDir               = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64                  = 'https://download.docker.com/win/static/stable/x86_64/docker-20.10.12.zip'
-$checksum64             = 'bd3775ada72492aa1f3c2edb3e81663bd128b9d4f6752ef75953a6af7c219c81'
+$url64                  = 'https://download.docker.com/win/static/stable/x86_64/docker-20.10.13.zip'
+$checksum64             = 'f18382ae665d75b1c31b1cc349bfd7d136cb29f67ea688849f2f31ed52e18f5f'
 $checksumType64         = 'sha256'
 
 $packageArgs = @{
