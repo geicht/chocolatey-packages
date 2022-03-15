@@ -35,5 +35,7 @@ NOTE: Docker client for Windows is not a Docker container engine for Windows. Yo
 
   <files>
     <file src="tools\**" target="tools" />
+    <file src="bin\**" target="bin" />
+    <file src="legal\**" target="legal" />
   </files>
 </package>
