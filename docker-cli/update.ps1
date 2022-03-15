@@ -6,17 +6,31 @@ $releases = "https://download.docker.com/win/static/stable/x86_64/"
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     $regex = '.zip$'
-    $filename = $download_page.links | ? href -match $regex | select -expand href  | Sort-Object $to_natural | select -Last 1
-    $url = "$releases" + "$filename"
-    $version = $filename -split '-|.zip' | select -First 1 -Skip 1
+
+    $archive_name = $download_page.links | Where-Object href -match $regex | Select-Object -expand href | Sort-Object $to_natural | Select-Object -Last 1
+    $archive_url = "$releases" + "$archive_name"
+    $archive_path = ".\bin\$archive_name"
+    $version = $archive_name -split '-|.zip' | Select-Object -First 1 -Skip 1
+
+    $release_notes = "https://docs.docker.com/engine/release-notes/#$($version.replace('.', '') )"
+
     return @{
         Version = $version;
-        URL64 = $url;
-        ChecksumType64 = 'sha256';
-        ReleaseNotes = "https://docs.docker.com/engine/release-notes/#$($version.replace('.', '') )"
+        URL64 = $archive_url;
+        Archive64 = $archive_path;
+        ReleaseNotes = $release_notes;
     }
 }
 
+function global:au_BeforeUpdate() {
+    New-Item -ItemType Directory -Force -Path ".\bin\"
+    Start-BitsTransfer -Source $Latest.URL64 -Destination $Latest.Archive64
+    7z e $Latest.Archive64 -obin "docker\docker.exe" -aoa
+    Remove-Item $Latest.Archive64
+
+    $Latest.ChecksumType64 = 'sha256'
+    $Latest.Checksum64 = Get-FileHash ".\bin\docker.exe" -Algorithm $Latest.ChecksumType64 | ForEach-Object Hash
+}
 
 function global:au_SearchReplace {
     @{
@@ -31,4 +45,4 @@ function global:au_SearchReplace {
     }
 }
 
-update -ChecksumFor 64
+update -ChecksumFor none
