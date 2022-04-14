@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>miniforge3</id>
+    <title>Miniforge3</title>
+    <version></version>
+    <authors>Miniforge Contributors</authors>
+    <owners>Geicht</owners>
+
+    <projectUrl>https://conda-forge.org/</projectUrl>
+    <projectSourceUrl>https://github.com/conda-forge/miniforge</projectSourceUrl>
+
+<!--     <iconUrl></iconUrl> -->
+    <packageSourceUrl>https://github.com/geicht/chocolatey-packages/tree/master/miniforge3</packageSourceUrl>
+
+    <copyright>Copyright (c) 2019-2021, conda-forge</copyright>
+    <licenseUrl>https://github.com/conda-forge/miniforge/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <docsUrl>https://github.com/conda-forge/miniforge</docsUrl>
+    <bugTrackerUrl>https://github.com/conda-forge/miniforge/issues</bugTrackerUrl>
+
+    <tags>conda conda-forge anaconda anaconda3 miniconda miniconda3 miniforge miniforge3 python</tags>
+    <summary>Miniforge3 installs the conda package manager with conda-forge specific pre-configurations.</summary>
+    <description></description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
