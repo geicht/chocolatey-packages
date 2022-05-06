@@ -5,7 +5,7 @@
 
     <id>docker-cli</id>
     <title>Docker CLI</title>
-    <version>20.10.14</version>
+    <version>20.10.15</version>
     <authors>Docker Contributors</authors>
     <owners>StefanScherer,Geicht</owners>
 
@@ -29,7 +29,7 @@
 
 NOTE: Docker client for Windows is not a Docker container engine for Windows. You can use this to manage your Linux and Windows machines running as Docker hosts. You might want to have a look at the "docker-desktop" package.
 ]]></description>
-    <releaseNotes>https://docs.docker.com/engine/release-notes/#201014</releaseNotes>
+    <releaseNotes>https://docs.docker.com/engine/release-notes/#201015</releaseNotes>
 
   </metadata>
 
