@@ -33,8 +33,8 @@ jobs:
           git config --global core.safecrlf false
       - name: Install AU
         run: |
-          choco install au -y
-          choco install wormies-au-helpers -y
+          choco install au -iy
+          choco install wormies-au-helpers -iy
       - name: Check update for packages
         run: |
           $ErrorActionPreference = 'Continue'
