@@ -2,7 +2,7 @@
 . $(Join-Path $packageToolsDir "helpers.ps1")
 $packageParameters  = Get-PackageParameters
 $silentArgs         = Get-SilentArgs($packageParameters)
-$installerName      = ''
+$installerName      = 'Miniforge3-4.12.0-0-Windows-x86_64.exe'
 $installerPath      = Join-Path $packageToolsDir $installerName
 
 $packageArgs = @{
