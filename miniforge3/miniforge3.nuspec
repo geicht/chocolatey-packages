@@ -21,7 +21,7 @@
     <docsUrl>https://github.com/conda-forge/miniforge</docsUrl>
     <bugTrackerUrl>https://github.com/conda-forge/miniforge/issues</bugTrackerUrl>
 
-    <tags>conda conda-forge anaconda anaconda3 miniconda miniconda3 miniforge miniforge3 python</tags>
+    <tags>conda-forge anaconda3 miniconda3 miniforge3 python3</tags>
     <summary>Miniforge3 installs the conda package manager with conda-forge specific pre-configurations.</summary>
     <description><![CDATA[Miniforge3 installs the conda package manager with the following features pre-configured:
 
