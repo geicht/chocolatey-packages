@@ -54,10 +54,10 @@ function Get-SilentArgs($packageParameters) {
         }
     }
 
-    Write-Host "miniconda3 will be installed for $(if ($InstallationType -eq "AllUsers") { "all users" } else { "current user" })."
-    Write-Host "miniconda3 python will $(if ($RegisterPython -ne "1") { "not " })be registered as the system's default."
-    Write-Host "miniconda3 directories will $(if ($AddToPath -ne "1") { "not " })be added to path."
-    Write-Host "miniconda3 will be installed to `'$D`'."
+    Write-Host "miniforge3 will be installed for $(if ($InstallationType -eq "AllUsers") { "all users" } else { "current user" })."
+    Write-Host "miniforge3 python will $(if ($RegisterPython -ne "1") { "not " })be registered as the system's default."
+    Write-Host "miniforge3 directories will $(if ($AddToPath -ne "1") { "not " })be added to path."
+    Write-Host "miniforge3 will be installed to `'$D`'."
     Write-Host ""
 
     return "/S /InstallationType=$InstallationType /RegisterPython=$RegisterPython /AddToPath=$AddToPath /D=$D"
