@@ -11,7 +11,7 @@
     <projectUrl>https://conda-forge.org/</projectUrl>
     <projectSourceUrl>https://github.com/conda-forge/miniforge</projectSourceUrl>
 
-<!--     <iconUrl></iconUrl> -->
+    <iconUrl>https://rawcdn.githack.com/geicht/chocolatey-packages/f015cfa194ac304abed804777d062f28c5db5e77/mambaforge/img/mambaforge.png</iconUrl>
     <packageSourceUrl>https://github.com/geicht/chocolatey-packages/tree/master/mambaforge</packageSourceUrl>
 
     <copyright>Copyright (c) 2019-2021, conda-forge</copyright>

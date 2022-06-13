@@ -1,4 +1,4 @@
-# [mambaforge](https://community.chocolatey.org/packages/mambaforge)[![](http://transparent-favicon.info/favicon.ico)](#)
+# <img src="https://rawcdn.githack.com/geicht/chocolatey-packages/f015cfa194ac304abed804777d062f28c5db5e77/mambaforge/img/mambaforge.png" width="48" height="48"/> [mambaforge](https://community.chocolatey.org/packages/mambaforge)[![](http://transparent-favicon.info/favicon.ico)](#)
 
 Mambaforge installs the mamba package manager with the following features pre-configured:
 
