@@ -4,7 +4,7 @@
   <metadata>
     <id>mambaforge</id>
     <title>Mambaforge</title>
-    <version></version>
+    <version>4.13.0.100</version>
     <authors>Miniforge Contributors</authors>
     <owners>Geicht</owners>
 
@@ -23,8 +23,25 @@
 
     <tags>conda-forge anaconda3 miniconda3 miniforge3 python3</tags>
     <summary>Mambaforge installs the mamba package manager with conda-forge specific pre-configurations.</summary>
-    <description></description>
-    <releaseNotes></releaseNotes>
+    <description><![CDATA[Mambaforge installs the mamba package manager with the following features pre-configured:
+
+  * [conda-forge](https://conda-forge.org/) set as the default (and only) channel.
+  * Packages in the base environment are obtained from the [conda-forge channel](https://anaconda.org/conda-forge).
+
+You can provide parameters for the install ([conda docs](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html#installing-in-silent-mode)). Example: `choco install mambaforge --params="'/AddToPath:1'"`.  
+To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`.
+
+  * /InstallationType:[AllUsers|JustMe]
+    * Default: AllUsers (install for all users)
+  * /RegisterPython:[0|1]
+    * Default: 1 (register mambaforge python as the system's default)
+  * /AddToPath:[0|1]
+    * Default: 0 (do not add mambaforge directories to path)
+  * /D:(installation path)
+    * Default-AllUsers: `$toolsDir\mambaforge` (`$toolsDir` is the path returned by `Get-ToolsLocation`) default is `C:\tools`
+    * Default-JustMe: `$Env:LOCALAPPDATA\mambaforge` (`$Env:LOCALAPPDATA` is set by Windows) default is `C:\Users\{USERNAME}\AppData\Local`
+]]></description>
+    <releaseNotes>https://github.com/conda-forge/miniforge/releases/tag/4.13.0-1</releaseNotes>
   </metadata>
 
   <files>
