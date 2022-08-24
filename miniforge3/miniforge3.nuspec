@@ -4,7 +4,7 @@
   <metadata>
     <id>miniforge3</id>
     <title>Miniforge3</title>
-    <version>4.13.0.100</version>
+    <version>4.14.0.000</version>
     <authors>Miniforge Contributors</authors>
     <owners>Geicht</owners>
 
@@ -41,7 +41,7 @@ To have choco remember parameters on upgrade, be sure to set `choco feature enab
     * Default-AllUsers: `$toolsDir\miniforge3` (`$toolsDir` is the path returned by `Get-ToolsLocation`) default is `C:\tools`
     * Default-JustMe: `$Env:LOCALAPPDATA\miniforge3` (`$Env:LOCALAPPDATA` is set by Windows) default is `C:\Users\{USERNAME}\AppData\Local`
 ]]></description>
-    <releaseNotes>https://github.com/conda-forge/miniforge/releases/tag/4.13.0-1</releaseNotes>
+    <releaseNotes>https://github.com/conda-forge/miniforge/releases/tag/4.14.0-0</releaseNotes>
   </metadata>
 
   <files>
