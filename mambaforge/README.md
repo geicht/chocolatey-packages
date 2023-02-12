@@ -1,4 +1,4 @@
-# <img src="https://rawcdn.githack.com/geicht/chocolatey-packages/f015cfa194ac304abed804777d062f28c5db5e77/mambaforge/img/mambaforge.png" width="48" height="48"/> [mambaforge](https://community.chocolatey.org/packages/mambaforge)[![](http://transparent-favicon.info/favicon.ico)](#)[![Latest version](https://repology.org/badge/version-for-repo/chocolatey/mambaforge.svg?header=Latest%20version)](https://community.chocolatey.org/packages/mambaforge/22.11.1.200)
+# <img src="https://rawcdn.githack.com/geicht/chocolatey-packages/f015cfa194ac304abed804777d062f28c5db5e77/mambaforge/img/mambaforge.png" width="48" height="48"/> [mambaforge](https://community.chocolatey.org/packages/mambaforge)[![](http://transparent-favicon.info/favicon.ico)](#)[![Latest version](https://repology.org/badge/version-for-repo/chocolatey/mambaforge.svg?header=Latest%20version)](https://community.chocolatey.org/packages/mambaforge/22.11.1.400)
 
 Mambaforge installs the mamba package manager with the following features pre-configured:
 
