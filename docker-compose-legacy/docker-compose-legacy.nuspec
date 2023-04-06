@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+
+    <id>docker-compose-legacy</id>
+    <title>Docker Compose V1</title>
+    <version>1.29.2</version>
+    <authors>Docker Contributors</authors>
+    <owners>Geicht</owners>
+
+    <projectUrl>https://github.com/docker/compose/tree/master</projectUrl>
+    <projectSourceUrl>https://github.com/docker/compose/tree/master</projectSourceUrl>
+
+    <iconUrl></iconUrl>
+    <packageSourceUrl>https://github.com/geicht/chocolatey-packages/tree/master/docker-compose-legacy</packageSourceUrl>
+
+    <copyright>Copyright 2014 Docker, Inc</copyright>
+    <licenseUrl>https://github.com/docker/compose/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <docsUrl>https://docs.docker.com/compose/reference/</docsUrl>
+    <mailingListUrl>https://forums.docker.com/</mailingListUrl>
+    <bugTrackerUrl>https://github.com/docker/compose/issues</bugTrackerUrl>
+
+    <tags>docker docker-compose devops containers cli</tags>
+    <summary>Docker Compose is a tool for running multi-container applications on Docker defined using the Compose file format.</summary>
+    <description><![CDATA[Docker Compose is a tool for running multi-container applications on Docker defined using the Compose file format.
+A Compose file is used to define how one or more containers that make up your application are configured ([overview](https://docs.docker.com/compose/)).
+
+This package exists for legacy reasons and provides Docker Compose V1 (`docker-compose`).
+Compose V1 is officially [End of Life](https://github.com/docker/compose/tree/master#warning-compose-v1-is-deprecated-warning) and should be replaced with Compose V2 ([package](https://community.chocolatey.org/packages/docker-compose)).
+From the end of June 2023 Compose V1 won’t be supported anymore.
+]]></description>
+    <releaseNotes>https://docs.docker.com/compose/release-notes/#1292</releaseNotes>
+
+  </metadata>
+
+  <files>
+    <file src="bin\**" target="bin" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
