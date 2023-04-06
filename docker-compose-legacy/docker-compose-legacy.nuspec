@@ -12,7 +12,7 @@
     <projectUrl>https://github.com/docker/compose/tree/master</projectUrl>
     <projectSourceUrl>https://github.com/docker/compose/tree/master</projectSourceUrl>
 
-    <iconUrl></iconUrl>
+    <iconUrl>https://rawcdn.githack.com/geicht/chocolatey-packages/376b7b0ad283d56b798c880e5842f9fe9bafd386/docker-compose-legacy/img/docker-compose.png</iconUrl>
     <packageSourceUrl>https://github.com/geicht/chocolatey-packages/tree/master/docker-compose-legacy</packageSourceUrl>
 
     <copyright>Copyright 2014 Docker, Inc</copyright>
