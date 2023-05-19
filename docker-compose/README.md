@@ -1,4 +1,4 @@
-# [docker-compose](https://community.chocolatey.org/packages/docker-compose)[![](http://transparent-favicon.info/favicon.ico)](#)
+# <img src="https://rawcdn.githack.com/geicht/chocolatey-packages/b3c81e45a778107adcf596a8873cd5911996299d/docker-compose/img/docker-compose.png" width="48" height="48"/> [docker-compose](https://community.chocolatey.org/packages/docker-compose)[![](http://transparent-favicon.info/favicon.ico)](#)
 
 Docker Compose is a tool for running multi-container applications on Docker defined using the Compose file format.  
 A Compose file is used to define how one or more containers that make up your application are configured ([overview](https://docs.docker.com/compose/)).

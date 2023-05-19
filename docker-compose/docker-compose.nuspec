@@ -12,7 +12,7 @@
     <projectUrl>https://github.com/docker/compose</projectUrl>
     <projectSourceUrl>https://github.com/docker/compose</projectSourceUrl>
 
-    <iconUrl></iconUrl>
+    <iconUrl>https://rawcdn.githack.com/geicht/chocolatey-packages/b3c81e45a778107adcf596a8873cd5911996299d/docker-compose/img/docker-compose.png</iconUrl>
     <packageSourceUrl>https://github.com/geicht/chocolatey-packages/tree/master/docker-compose</packageSourceUrl>
 
     <copyright>Copyright 2020 Docker Compose authors</copyright>
