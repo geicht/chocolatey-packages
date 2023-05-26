@@ -5,7 +5,7 @@
 
     <id>docker-cli</id>
     <title>Docker CLI</title>
-    <version>24.0.1</version>
+    <version>24.0.2</version>
     <authors>Docker Contributors</authors>
     <owners>StefanScherer,Geicht</owners>
 
@@ -34,7 +34,7 @@ It does not contain the docker engine to run containers on a Windows host.
 
 If you do need to run Windows or Linux containers on Windows, take a look at [Docker-Desktop](https://community.chocolatey.org/packages/docker-desktop).
 ]]></description>
-    <releaseNotes>https://docs.docker.com/engine/release-notes/#2401</releaseNotes>
+    <releaseNotes>https://docs.docker.com/engine/release-notes/#2402</releaseNotes>
 
   </metadata>
 
