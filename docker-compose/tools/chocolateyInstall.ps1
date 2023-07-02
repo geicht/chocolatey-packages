@@ -1,4 +1,5 @@
-﻿$packageToolsDir        = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+﻿$ErrorActionPreference = "Stop"
+$packageToolsDir        = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $executablePath         = Join-Path $packageToolsDir 'docker-compose.exe'
 
 $executableTargetDir    = 'C:\ProgramData\Docker\cli-plugins\'
