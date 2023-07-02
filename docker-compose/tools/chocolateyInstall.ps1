@@ -9,8 +9,8 @@ if (-not (Test-Path -Path $executableTargetDir)) {
     $null = New-Item -Path $executableTargetDir -ItemType Directory
 }
 
-# move executable
-#Move-Item -Path $executablePath -Destination $executableTargetPath -Force
+# remove docker-compose shim if it still exists
+Uninstall-BinFile -name docker-compose -ErrorAction:Ignore
 
-# copy executable
-Copy-Item -Path $executablePath -Destination $executableTargetPath -Force
+# move executable
+Move-Item -Path $executablePath -Destination $executableTargetPath -Force

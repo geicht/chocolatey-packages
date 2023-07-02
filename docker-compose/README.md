@@ -7,5 +7,4 @@ This package contains Docker Compose V2 which is not a standalone binary anymore
 Therefore it depends on the [docker-cli](https://community.chocolatey.org/packages/docker-cli) package. 
 To use Compose V2 through Docker type `docker compose ...`.
 
-Docker Inc.'s support for Compose V1 and its Syntax (`docker-compose ...`) will end after June 2023 ([link](https://docs.docker.com/compose/migrate/)).  
-This package will provide the old Syntax until then.
+From July 2023 Docker Inc.'s support for Compose V1 and its Syntax (`docker-compose ...`) has ended ([link](https://docs.docker.com/compose/migrate/)).  
