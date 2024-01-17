@@ -2,7 +2,7 @@
 . $(Join-Path $packageToolsDir "helpers.ps1")
 $packageParameters  = Get-PackageParameters
 $silentArgs         = Get-SilentArgs($packageParameters)
-$installerName      = 'Mambaforge-23.3.1-1-Windows-x86_64.exe'
+$installerName      = 'Mambaforge-23.11.0-0-Windows-x86_64.exe'
 $installerPath      = Join-Path $packageToolsDir $installerName
 
 $packageArgs = @{
