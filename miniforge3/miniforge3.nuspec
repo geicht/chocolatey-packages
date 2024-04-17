@@ -4,7 +4,7 @@
   <metadata>
     <id>miniforge3</id>
     <title>Miniforge3</title>
-    <version>24.1.2.000</version>
+    <version>24.3.0.000</version>
     <authors>Miniforge Contributors</authors>
     <owners>Geicht</owners>
 
@@ -48,7 +48,7 @@ To have choco remember parameters on upgrade, be sure to set `choco feature enab
 
 Example: `choco install miniforge3 --params="'/InstallationType:JustMe /AddToPath:1'"`.
 ]]></description>
-    <releaseNotes>https://github.com/conda-forge/miniforge/releases/tag/24.1.2-0</releaseNotes>
+    <releaseNotes>https://github.com/conda-forge/miniforge/releases/tag/24.3.0-0</releaseNotes>
   </metadata>
 
   <files>
