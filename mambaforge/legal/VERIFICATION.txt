@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://github.com/conda-forge/miniforge/releases/download/24.9.0-0/Mambaforge-24.9.0-0-Windows-x86_64.exe
+   x64: https://github.com/conda-forge/miniforge/releases/download/24.9.2-0/Mambaforge-24.9.2-0-Windows-x86_64.exe
 
    to download the installer.
 
@@ -15,7 +15,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: 7F1F8F21B1768DC189050AB3A2234B46A67EC122ACA3B6B97E5722E86D333A08
+   checksum64: F8C1E3C4317DE4DF74826D90303346146A05500CD8DE5F3C38250A58F5C2A322
 
 
 File 'LICENSE.txt' is obtained from:
