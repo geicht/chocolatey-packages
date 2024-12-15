@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://github.com/conda-forge/miniforge/releases/download/24.11.0-0/Miniforge3-24.11.0-0-Windows-x86_64.exe
+   x64: https://github.com/conda-forge/miniforge/releases/download/24.11.0-1/Miniforge3-24.11.0-1-Windows-x86_64.exe
 
    to download the installer.
 
@@ -15,7 +15,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: 2FF52375382190653349B4B957F753E559C8FD4A3A77F8B327D6FBB269BDD751
+   checksum64: CF604136C809FBF3578370E877A630B55A7EAA18F0D453518A88FEA5D6A9024E
 
 
 File 'LICENSE.txt' is obtained from:
