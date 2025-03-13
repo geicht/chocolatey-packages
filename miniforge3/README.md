@@ -1,4 +1,4 @@
-# <img src="https://rawcdn.githack.com/geicht/chocolatey-packages/b2ddc74a806f3b2d24eb40197f9a511dae49a43f/miniforge3/img/miniforge.png" width="48" height="48"/> [miniforge3](https://community.chocolatey.org/packages/miniforge3)[![](http://transparent-favicon.info/favicon.ico)](#)[![Latest version](https://repology.org/badge/version-for-repo/chocolatey/miniforge3.svg?header=Latest%20version)](https://community.chocolatey.org/packages/miniforge3/24.11.3.100)
+# <img src="https://rawcdn.githack.com/geicht/chocolatey-packages/b2ddc74a806f3b2d24eb40197f9a511dae49a43f/miniforge3/img/miniforge.png" width="48" height="48"/> [miniforge3](https://community.chocolatey.org/packages/miniforge3)[![](http://transparent-favicon.info/favicon.ico)](#)[![Latest version](https://repology.org/badge/version-for-repo/chocolatey/miniforge3.svg?header=Latest%20version)](https://community.chocolatey.org/packages/miniforge3/24.11.3.200)
 
 Miniforge3 installs the conda package manager with the following features pre-configured:
 
