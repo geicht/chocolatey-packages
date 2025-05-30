@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://download.docker.com/win/static/stable/x86_64/docker-28.2.1.zip
+   x64: https://download.docker.com/win/static/stable/x86_64/docker-28.2.2.zip
 
    to download the zip archive.
 
@@ -19,7 +19,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: DE1AFD241D9BDBA2A0D8942DAC8708DAB088DAFE47FDADABE50E159103C7F8B8
+   checksum64: 130E36429FF954B19E1DFE52AFB557EF797B06B0C0F43B5BF5DAC2D9E1C421AB
 
 
 File 'LICENSE.txt' is obtained from:
