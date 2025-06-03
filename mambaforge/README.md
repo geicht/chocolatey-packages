@@ -1,4 +1,4 @@
-# <img src="https://rawcdn.githack.com/geicht/chocolatey-packages/f015cfa194ac304abed804777d062f28c5db5e77/mambaforge/img/mambaforge.png" width="48" height="48"/> [mambaforge](https://community.chocolatey.org/packages/mambaforge)[![](http://transparent-favicon.info/favicon.ico)](#)[![Latest version](https://repology.org/badge/version-for-repo/chocolatey/mambaforge.svg?header=Latest%20version)](https://community.chocolatey.org/packages/mambaforge/24.11.0.100)
+# <img src="https://rawcdn.githack.com/geicht/chocolatey-packages/f015cfa194ac304abed804777d062f28c5db5e77/mambaforge/img/mambaforge.png" width="48" height="48"/> [mambaforge](https://community.chocolatey.org/packages/mambaforge)[![](http://transparent-favicon.info/favicon.ico)](#)[![Latest version](https://repology.org/badge/version-for-repo/chocolatey/mambaforge.svg?header=Latest%20version)](https://community.chocolatey.org/packages/mambaforge/24.11.0.101)
 
 This package has been [deprecated](https://github.com/conda-forge/miniforge/tree/7677f504dfe603ad9a3cb01b1e6e4a4224de7a95?tab=readme-ov-file#should-i-choose-one-or-another-going-forward-at-the-risk-of-one-of-them-getting-deprecated).
 

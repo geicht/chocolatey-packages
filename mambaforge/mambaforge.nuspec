@@ -4,7 +4,7 @@
   <metadata>
     <id>mambaforge</id>
     <title>[Deprecated] Mambaforge</title>
-    <version>24.11.0.100</version>
+    <version>24.11.0.101</version>
     <authors>Miniforge Contributors</authors>
     <owners>Geicht</owners>
 
@@ -23,7 +23,9 @@
 
     <tags>conda-forge anaconda3 miniconda3 miniforge3 python3</tags>
     <summary>This package is deprecated, use miniforge3 instead.</summary>
-    <description><![CDATA[Mambaforge installs the mamba package manager with the following features pre-configured:
+    <description><![CDATA[This package has been [deprecated](https://github.com/conda-forge/miniforge/tree/7677f504dfe603ad9a3cb01b1e6e4a4224de7a95?tab=readme-ov-file#should-i-choose-one-or-another-going-forward-at-the-risk-of-one-of-them-getting-deprecated).
+
+Mambaforge installs the mamba package manager with the following features pre-configured:
 
   * [conda-forge](https://conda-forge.org/) set as the default (and only) channel.
   * Packages in the base environment are obtained from the [conda-forge channel](https://anaconda.org/conda-forge).
