@@ -1,0 +1,8 @@
+services:
+  choco-pwsh:
+    image: choco-pwsh:latest
+    build:
+      context: .
+    user: "${UID}:${GID}"
+    volumes:
+      - "./:/packages/"

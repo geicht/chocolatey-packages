@@ -3,6 +3,7 @@
 
 # Linux
 *.sh
+.env
 .wine
 
 # Packages
