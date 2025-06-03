@@ -1,7 +1,7 @@
 import-module au
 import-module wormies-au-helpers
 
-$releaseUrl = "https://api.github.com/repos/conda-forge/miniforge/releases/latest"
+$releaseUrl = "https://api.github.com/repos/conda-forge/miniforge/releases/tags/24.11.0-1"
 
 function global:au_GetLatest {
     $headers = @{}
