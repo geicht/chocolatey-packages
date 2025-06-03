@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mambaforge</id>
-    <title>Mambaforge</title>
+    <title>[Deprecated] Mambaforge</title>
     <version>24.11.0.100</version>
     <authors>Miniforge Contributors</authors>
     <owners>Geicht</owners>
@@ -22,7 +22,7 @@
     <bugTrackerUrl>https://github.com/conda-forge/miniforge/issues</bugTrackerUrl>
 
     <tags>conda-forge anaconda3 miniconda3 miniforge3 python3</tags>
-    <summary>Mambaforge installs the mamba package manager with conda-forge specific pre-configurations.</summary>
+    <summary>This package is deprecated, use miniforge3 instead.</summary>
     <description><![CDATA[Mambaforge installs the mamba package manager with the following features pre-configured:
 
   * [conda-forge](https://conda-forge.org/) set as the default (and only) channel.
