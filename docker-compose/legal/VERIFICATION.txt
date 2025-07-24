@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://github.com/docker/compose/releases/download/v2.38.2/docker-compose-windows-x86_64.exe
+   x64: https://github.com/docker/compose/releases/download/v2.39.0/docker-compose-windows-x86_64.exe
 
    to download the executable.
 
@@ -15,7 +15,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: BA8F09D3873F7A9755B863ED2013A1276B96FCBBC074C69FF3D3CFBCE3E0186F
+   checksum64: 42F8D1A03C32FDF73EC2C10C2C9D4F75E430DA798EC94743D86F188C5155C621
 
 
 File 'LICENSE.txt' is obtained from:
