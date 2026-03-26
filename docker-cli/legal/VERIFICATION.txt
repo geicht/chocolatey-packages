@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://download.docker.com/win/static/stable/x86_64/docker-29.3.0.zip
+   x64: https://download.docker.com/win/static/stable/x86_64/docker-29.3.1.zip
 
    to download the zip archive.
 
@@ -19,7 +19,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: B8FF27A440C64D6A5572690B9A0D65BCE0D2C0D3CA24C6483B493CDADE8E3ECA
+   checksum64: AE4B16D8F152C03DB73A9C9E33F89874EC640BFE2128DBD776A172059C94280D
 
 
 File 'LICENSE.txt' is obtained from:
