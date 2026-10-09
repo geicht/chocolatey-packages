@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://github.com/docker/docker-credential-helpers/releases/download/v0.9.9/docker-credential-wincred-v0.9.9.windows-amd64.exe
+   x64: https://github.com/docker/docker-credential-helpers/releases/download/v0.9.10/docker-credential-wincred-v0.9.10.windows-amd64.exe
 
    to download the executable.
 
@@ -15,7 +15,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: ED50B9767EAC0BA42782DC4F550CEAB2F4354BACAAD05C54CAA9DEC98A032C48
+   checksum64: 04833862D29A06A6F9353EF0619B7385F37EE3CE1650DE5AD3EBE9C3F2EBE233
 
 
 File 'LICENSE.txt' is obtained from:
