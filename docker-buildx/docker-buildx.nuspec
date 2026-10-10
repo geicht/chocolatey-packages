@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+
+    <id>docker-buildx</id>
+    <title>Docker Buildx</title>
+    <version></version>
+    <authors>Docker Buildx Contributors</authors>
+    <owners>Geicht</owners>
+
+    <projectUrl>https://github.com/docker/buildx</projectUrl>
+    <projectSourceUrl>https://github.com/docker/buildx</projectSourceUrl>
+
+    <iconUrl></iconUrl>
+    <packageSourceUrl>https://github.com/geicht/chocolatey-packages/tree/master/docker-buildx</packageSourceUrl>
+
+    <copyright>Docker Buildx Authors</copyright>
+    <licenseUrl>https://github.com/docker/buildx/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <docsUrl>https://docs.docker.com/build/</docsUrl>
+    <mailingListUrl>https://forums.docker.com/</mailingListUrl>
+    <bugTrackerUrl>https://github.com/docker/buildx/issues</bugTrackerUrl>
+
+    <tags>docker docker-buildx devops containers cli</tags>
+    <summary>Docker CLI plugin for extended build capabilities with BuildKit.</summary>
+    <description></description>
+    <releaseNotes></releaseNotes>
+
+    <dependencies>
+      <dependency id="docker-cli" version="18.09.0" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

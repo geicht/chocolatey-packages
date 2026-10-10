@@ -1,0 +1,13 @@
+# [docker-buildx](https://community.chocolatey.org/packages/docker-buildx)[![](http://transparent-favicon.info/favicon.ico)](#)
+
+Buildx is a Docker CLI plugin for extended build capabilities with
+[BuildKit](https://github.com/moby/buildkit).
+
+**Key features**
+- Familiar UI from `docker build`
+- Full BuildKit capabilities with container driver
+- Multiple builder instance support
+- Multi-node builds for cross-platform images
+- Compose build support
+- High-level builds with [Bake](https://docs.docker.com/build/bake/)
+- In-container driver support (both Docker and Kubernetes)
