@@ -56,7 +56,7 @@ function global:au_SearchReplace {
 
 function Verify-Checksum() {
     $Latest.ChecksumType64 = 'sha256'
-    $checksumUrl = "$(Split-Path -Path $Latest.URL64 -Parent)/checksums-signed.txt"
+    $checksumUrl = "$(Split-Path -Path $Latest.URL64 -Parent)\checksums-signed.txt"
     $executablePath = Join-Path ".\tools\" $Latest.Name64
 
     $response = Invoke-WebRequest -Uri $checksumUrl -UseBasicParsing
