@@ -1,4 +1,4 @@
-FROM chocolatey/choco:latest
+FROM docker.io/chocolatey/choco:latest
 
 # Set the default shell to bash
 SHELL ["/bin/bash", "-c"]

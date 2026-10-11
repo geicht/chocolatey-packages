@@ -2,7 +2,8 @@ services:
   choco-pwsh:
     image: choco-pwsh:latest
     build:
+      dockerfile: dockerfile
       context: .
-    user: "${UID}:${GID}"
+    userns_mode: keep-id
     volumes:
       - "./:/packages/"
