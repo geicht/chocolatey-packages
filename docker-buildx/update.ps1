@@ -18,6 +18,10 @@ function global:au_GetLatest {
         $url64 = $_.browser_download_url
     }
 
+    $jsonAnswer.assets | Where { $_.name -Match "^checksums-signed.txt$" } | ForEach-Object {
+        $checksumUrl64 = $_.browser_download_url
+    }
+
     $version = $jsonAnswer.tag_name.replace("v", "")
 
     $release_notes = $jsonAnswer.html_url
@@ -26,6 +30,7 @@ function global:au_GetLatest {
         Version = $version;
         URL64 = $url64;
         Name64 = $name64;
+        ChecksumURL64 = $checksumUrl64;
         ReleaseNotes = $release_notes;
     }
 }
@@ -56,10 +61,9 @@ function global:au_SearchReplace {
 
 function Verify-Checksum() {
     $Latest.ChecksumType64 = 'sha256'
-    $checksumUrl = "$(Split-Path -Path $Latest.URL64 -Parent)\checksums-signed.txt"
     $executablePath = Join-Path ".\tools\" $Latest.Name64
 
-    $response = Invoke-WebRequest -Uri $checksumUrl -UseBasicParsing
+    $response = Invoke-WebRequest -Uri $Latest.ChecksumURL64 -UseBasicParsing
     $responseText = [System.Text.Encoding]::UTF8.GetString($response.Content)
 
     $remoteChecksum64 = $responseText -split '\r?\n' |
