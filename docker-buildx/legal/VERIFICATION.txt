@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64:
+   x64: https://github.com/docker/buildx/releases/download/v0.38.0/buildx-v0.38.0.windows-amd64.exe
 
    to download the executable.
 
@@ -15,7 +15,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64:
+   checksum64: B39784AED5B3F9B24D1971BBCBAD8C8206033FA63ED4FEA82C9141728FE0EA26
 
 
 File 'LICENSE.txt' is obtained from:
