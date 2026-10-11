@@ -62,7 +62,7 @@ function Verify-Checksum() {
     $response = Invoke-WebRequest -Uri $checksumUrl -UseBasicParsing
     $responseText = [System.Text.Encoding]::UTF8.GetString($response.Content)
 
-    $remoteChecksum64 = (Invoke-RestMethod $checksumUrl) -split '\r?\n' |
+    $remoteChecksum64 = $responseText -split '\r?\n' |
         Where-Object { $_ -match 'buildx-v[\d.]+\.windows-amd64\.exe' } |
         ForEach-Object { ($_ -split '\s+')[0] } |
         Select-Object -First 1 |
