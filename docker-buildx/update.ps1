@@ -62,11 +62,11 @@ function Verify-Checksum() {
     $response = Invoke-WebRequest -Uri $checksumUrl -UseBasicParsing
     $responseText = [System.Text.Encoding]::UTF8.GetString($response.Content)
 
-    $remoteChecksum64 = (Invoke-RestMethod $checksumUrl) -split '\r?\n'
-        | Where-Object { $_ -match 'buildx-v[\d.]+\.windows-amd64\.exe' }
-        | ForEach-Object { ($_ -split '\s+')[0] }
-        | Select-Object -First 1
-        | ForEach-Object { $_.ToUpper() }
+    $remoteChecksum64 = (Invoke-RestMethod $checksumUrl) -split '\r?\n' |
+        Where-Object { $_ -match 'buildx-v[\d.]+\.windows-amd64\.exe' } |
+        ForEach-Object { ($_ -split '\s+')[0] } |
+        Select-Object -First 1 |
+        ForEach-Object { $_.ToUpper() }
     $localChecksum64 = $(Get-FileHash -Path $executablePath -Algorithm $Latest.ChecksumType64 | ForEach-Object Hash).ToUpper()
 
     if ($remoteChecksum64 -ne $localChecksum64) {
