@@ -1,4 +1,4 @@
-# [docker-buildx](https://community.chocolatey.org/packages/docker-buildx)[![](http://transparent-favicon.info/favicon.ico)](#)
+# <img src="https://rawcdn.githack.com/geicht/chocolatey-packages/2cd58b508f86169c99c35c283679c9943dce4f1a/docker-buildx/img/docker-buildx.png" width="48" height="48"/> [docker-buildx](https://community.chocolatey.org/packages/docker-buildx)[![](http://transparent-favicon.info/favicon.ico)](#)
 
 Buildx is a Docker CLI plugin for extended build capabilities with
 [BuildKit](https://github.com/moby/buildkit).
