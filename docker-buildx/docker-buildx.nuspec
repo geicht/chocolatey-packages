@@ -5,7 +5,7 @@
 
     <id>docker-buildx</id>
     <title>Docker Buildx</title>
-    <version>0.38.0.20261020</version>
+    <version>0.38.1</version>
     <authors>Docker Buildx Contributors</authors>
     <owners>Geicht</owners>
 
@@ -37,7 +37,7 @@
 - High-level builds with [Bake](https://docs.docker.com/build/bake/)
 - In-container driver support (both Docker and Kubernetes)
 ]]></description>
-    <releaseNotes>https://github.com/docker/buildx/releases/tag/v0.38.0</releaseNotes>
+    <releaseNotes>https://github.com/docker/buildx/releases/tag/v0.38.1</releaseNotes>
 
     <dependencies>
       <dependency id="docker-cli" version="18.09.0" />
